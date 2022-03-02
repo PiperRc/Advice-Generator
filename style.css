@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Manrope', sans-serif;
+}
+
+:root {
+    /* Primary */
+    --quoteColor: hsl(193, 38%, 86%);
+    --h1Color: hsl(150, 100%, 66%);
+    /* Neutral */
+    --grayBlue: hsl(217, 19%, 38%);
+    --contentBackgroundColor: hsl(217, 19%, 24%);
+    --backgroundColor: hsl(218, 23%, 16%);
+}
+
+body {
+    background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+}
+
+main {
+    width: 95%;
+    max-width: 450px;
+    background-color: var(--contentBackgroundColor);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.quote-section {
+    width: 87%;
+    padding-top: 3rem;
+    /* position: relative */
+}
+
+.quote-section h1 {
+    text-align: center;
+    color: var(--h1Color);
+    padding-bottom: 2rem;
+}
+
+.quote-section p {
+    font-size: 2.8rem;
+    text-align: center;
+    color: var(--quoteColor);
+    padding-bottom: 2rem;
+    font-weight: 800;
+}
+
+.divider-img-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6rem;
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+}
+
+.dice:hover {
+    cursor: pointer;
+}
+
+.dice-img-container {
+    background-color: var(--h1Color);
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    max-width: 64px;
+    padding: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 92.5%;
+}
+
+.dice-img-container img {
+    width: 100%;
+}
+
+footer {
+    padding-top: 8rem;
+}
