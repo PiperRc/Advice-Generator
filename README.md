@@ -27,7 +27,7 @@ Users should be able to view the page on mobile and desktop.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot](https://github.com/PiperRc/Advice-Generator/blob/main/screenshot/screenshot.png)
 
 
 
