@@ -90,6 +90,10 @@ main {
     width: 100%;
 }
 
+.dice-img-container:hover {
+    box-shadow: 2px 5px 15px -1px #52FFA8;
+}
+
 footer {
     padding-top: 8rem;
 }
